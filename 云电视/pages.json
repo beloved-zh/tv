@@ -1,0 +1,43 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "TV",
+				//页面触底距离
+				"onReachBottomDistance":100
+			}
+		}
+        ,{
+            "path" : "pages/video/video",
+            "style" : {
+				"navigationBarTitleText": "小视频"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "云电视",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#000000",  //未选择的字体颜色
+		"selectedColor":"#ef5656",  //选中的字体颜色
+		"backgroundColor":"#eee",  //背景色
+		"list":[
+			{
+				"text":"电视",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/image/tv.png",
+				"selectedIconPath":"static/image/tv-active.png"
+			},
+			{
+				"text":"小视频",
+				"pagePath":"pages/video/video",
+				"iconPath":"static/image/viedo.png",
+				"selectedIconPath":"static/image/viedo-active.png"
+			}
+		]
+	}
+}

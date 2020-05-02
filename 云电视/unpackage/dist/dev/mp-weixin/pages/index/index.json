@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "TV",
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "qs-tabs": "/components/QS-tabs/QS-tabs"
+  }
+}
